@@ -1,0 +1,6 @@
+node_modules/
+build/Release/
+*.log
+.DS_Store
+launcher.exe
+lib/platform.js.bak

