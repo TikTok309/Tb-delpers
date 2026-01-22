@@ -1,6 +1,6 @@
 {
   "name": "utils-helpers",
-  "version": "1.0.40",
+  "version": "1.0.41",
   "description": "Small utility helpers.",
   "main": "index.js",
   "scripts": {
